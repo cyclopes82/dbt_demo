@@ -23,3 +23,17 @@ models:
   - name: snowflake_customer_purchases
   - name: dates
   - name: snapshot_source
+  - name: playing_with_tests
+
+sources:
+  - name: sample
+    database: snowflake_sample_data  # Tell dbt to look for the source in the "raw" database
+    schema: tpch_sf1
+    tables:
+      - name: customer
+        columns:
+          - name: c_custkey
+            tests:
+              - unique
+              - not_null
+      - name: orders
