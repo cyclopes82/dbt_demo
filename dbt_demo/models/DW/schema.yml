@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: CUSTOMER
+  - name: LINEITEM
+  - name: NATION
+  - name: ORDERS
+  - name: PART
+  - name: PARTSUPP
+  - name: REGION
+  - name: SUPPLIER
+  - name: Pricing_Summary_Report
+  - name: Profit_Measure_Query
+  - name: The_Minimum_Cost_Supplier
+  - name: Volume_Shipping_Query
+
+
+  

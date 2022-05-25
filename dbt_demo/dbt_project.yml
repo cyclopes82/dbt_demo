@@ -38,3 +38,6 @@ models:
       +materialized: view
       vars:
         my_var :2022
+    DW:
+      +materialized: table
+
